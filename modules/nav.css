@@ -1,0 +1,32 @@
+#title{
+    verticle-align: top;
+    font-family: 'Space Mono', 'Times New Roman', Arial;
+    font-weight: 900px;
+    margin: 0;
+    margin-left: 5px;
+}
+nav{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    margin-right: 5px;
+    verticle-align: top;
+    font-family: 'Comfortaa', 'Verdana', Arial;
+    font-weight: 200px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin-right: 5px;
+}
+nav li:hover{
+    transform: scale(1.1, 1.1);
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
