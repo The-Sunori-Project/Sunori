@@ -3,4 +3,6 @@
 body{
     margin: 0;
     user-select: none;
+    color: white;
+    background-color: #292b2f;
 }

@@ -1,9 +1,17 @@
+#icon{
+    width: 42px;
+    display: inline-block;
+    margin: 2px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
 #title{
-    verticle-align: top;
+    vertical-align: top;
     font-family: 'Space Mono', 'Times New Roman', Arial;
     font-weight: 900px;
     margin: 0;
     margin-left: 5px;
+    display: inline-block;
 }
 nav{
     display: inline-block;
@@ -12,7 +20,7 @@ nav{
     right: 0;
     margin: 0;
     margin-right: 5px;
-    verticle-align: top;
+    vertical-align: top;
     font-family: 'Comfortaa', 'Verdana', Arial;
     font-weight: 200px;
 }
