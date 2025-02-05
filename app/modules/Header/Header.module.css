@@ -1,0 +1,33 @@
+header {
+    background-color: var(--foreground);
+    display: block;
+}
+#title {
+    position: absolute;
+    top: -3vh;
+    font-size: 48px;
+    display: inline-block;
+    font-family: 'Major Mono Display', 'Times New Roman', Helvetica, Arial;
+}
+#favicon {
+    width: 48px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav {
+    color: white;
+    position: absolute;
+    top: 1.5vh;
+    right: 0;
+}
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Comfforta', Verdana, Helvetica, Arial;
+}
+nav li:hover{
+    transform: scale(1.05);
+}
