@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import './modules/imports.css';
 :root{
     font-family: Comfforta, Verdana, Helvetica, Arial;
     --accent: #2a2b2e;
@@ -10,4 +8,5 @@
 body{
     background-color: var(--background);
     color: var(--text);
+    margin: 0;
 }
