@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Sunori NextJS",
-  description: "Top of the line games site rewritten from scratch in NextJS.",
+  title: "Sunori",
+  description: "The top-of-the-line games site Sunori",
 };
 
 export default function RootLayout({
