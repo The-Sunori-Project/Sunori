@@ -1,3 +1,3 @@
-<center align="center">
+<div align="center">
   <h1>Sunori</h1>
-</center>
+</div>
