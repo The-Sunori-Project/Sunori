@@ -32,5 +32,5 @@ Data URLs work in the same way as HTTP(S) or file URLs, they can be opened direc
 [Nettleweb](https://github.com/nettleweb/): Used their README from their repo 'Nettlweb' as a template.<br>
 [tw31122007](https://github.com/tw31122007/): Some html games found in their template repo 'HTML-Games-V2'
 
-## Contact
-If you would like your content removed or you want to suggest an addition <a target="_blank" href="mailto:skj0nes2@outlook.com">email me!</a>
+## Issues
+if you have an addition suggestion or a complaint make an issue
