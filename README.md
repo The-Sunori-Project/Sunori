@@ -10,11 +10,10 @@ If the main link is not working properly, you could self-host your own mirror li
 #### GitHub Pages
 1. Click on the fork button at the top right corner to fork this repository.
 2. Rename it to `username.github.io` where `username` is your actual GitHub username.
-3. In your forked repository, open next.config.ts and change the basepath to '/'
-4. Then, go to settings->pages. Change 'source' to 'GitHub Actions' and click save.
-5. Your forked mirror version should now be published at the URL shown above.
+3. Then, go to settings->pages. Change 'source' to 'GitHub Actions' and click save.
+4. Your forked mirror version should now be published at the URL shown above.
 
-Note 1: Due to resource linkage, hosting the website at non-root locations like `username.github.io/project` is **not supported** at this moment. If you already have a project hosted at the root location, consider using a custom domain or creating another GitHub account, if using a custom domain change basepath in next.config.ts to the domain.
+Note 1: Due to resource linkage, hosting the website at non-root locations like `username.github.io/project` is **not supported** at this moment. If you already have a project hosted at the root location, consider using a custom domain or creating another GitHub account.
 
 Note 2: When hosting on github pages you must use actions to deploy our actions deploy workflow builds a static version of Sunori and deploys it.
 
