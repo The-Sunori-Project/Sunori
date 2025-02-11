@@ -5,6 +5,9 @@
     --background: #202225;
     --text: #ffffff;
 }
+.pageTitle{
+    text-align: center;
+}
 body{
     background-color: var(--background);
     color: var(--text);

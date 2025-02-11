@@ -1,0 +1,27 @@
+.diamond{
+    border: #00b4dc inset 2px;
+    border-radius: 5px;
+    width: 150px;
+    height: 190px;
+    padding: 10px;
+    margin: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+.diamond:hover{
+    color: #c31fff;
+    border: #c31fff 2px outset;
+    transform: scale(1.05);
+}
+.diamond:hover .diamondImg{
+    border: #c31fff 1px outset;
+}
+.diamondTitle{
+    text-align: center;
+}
+.diamondImg{
+    border: solid #00b4dc 1px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem #4d423f);
+    max-width: 150px;
+}

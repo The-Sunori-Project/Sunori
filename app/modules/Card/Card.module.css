@@ -1,0 +1,34 @@
+
+/* Tags */
+
+@import './tags/Owner.css';
+@import './tags/Diamond.css';
+@import './tags/Gold.css';
+
+.card{
+    border: white inset 2px;
+    border-radius: 5px;
+    width: 150px;
+    height: 190px;
+    padding: 10px;
+    margin: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+.card:hover{
+    color: #00e600;
+    border: #00e600 2px outset;
+    transform: scale(1.05);
+}
+.card:hover .cardImg{
+    border: #00e600 1px outset;
+}
+.cardTitle{
+    text-align: center;
+}
+.cardImg{
+    border: solid white 1px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem #4d423f);
+    width: 150px;
+}
