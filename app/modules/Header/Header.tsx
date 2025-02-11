@@ -8,8 +8,8 @@ export default function Header(){
             </a>
             <nav>
                 <ul>
-                    <li><a href="/games">Games</a></li>
-                    <li><a href="https://github.com/The-Sunori-Project/Sunori">Github</a></li>
+                    <li><Link href="/games">Games</Link></li>
+                    <li><Link href="https://github.com/The-Sunori-Project/Sunori">Github</Link></li>
                 </ul>
             </nav>
             <hr />
