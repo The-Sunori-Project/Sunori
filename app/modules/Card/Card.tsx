@@ -1,5 +1,5 @@
 import Link from 'next/link'
-export default function Card(props: any){
+export default function Card(props){
     return(
         <Link target={props.Target} className={props.Owner ? 'owner' : props.Diamond ? 'diamond' : props.Gold ? 'gold' : 'card'} href={props.Url}>
             <img className={props.Owner ? 'ownerImg' : props.Diamond ? 'diamondImg' : props.Gold ? 'goldImg' : 'cardImg'} src={"/img/" + props.Img} />
