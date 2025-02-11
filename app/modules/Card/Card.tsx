@@ -1,4 +1,4 @@
-import Link from next
+import Link from 'next/link'
 export default function Card(props: any){
     return(
         <Link target={props.Target} className={props.Owner ? 'owner' : props.Diamond ? 'diamond' : props.Gold ? 'gold' : 'card'} href={props.Url}>
