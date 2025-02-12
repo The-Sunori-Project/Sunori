@@ -12,9 +12,9 @@ type CardProps = {
 }
 const Card: FC<CardProps> = ({ Img, Title, Url, Target, Owner, Diamond, Gold }) => {
     return(
-        <Link target={props.Target} className={props.Owner ? 'owner' : props.Diamond ? 'diamond' : props.Gold ? 'gold' : 'card'} href={props.Url}>
-            <Image alt={props.title + " Image"} className={props.Owner ? 'ownerImg' : props.Diamond ? 'diamondImg' : props.Gold ? 'goldImg' : 'cardImg'} src={"/img/" + props.Img} />
-            <p className={props.Owner ? 'ownerTitle' : props.Diamond ? 'diamondTitle' : props.Gold ? 'goldTitle' : 'cardTitle'}>{props.Title}</p>
+        <Link target={Target} className={Owner ? 'owner' : Diamond ? 'diamond' : Gold ? 'gold' : 'card'} href={Url}>
+            <Image alt={Title + " Image"} className={Owner ? 'ownerImg' : Diamond ? 'diamondImg' : Gold ? 'goldImg' : 'cardImg'} src={"/img/" + Img} />
+            <p className={Owner ? 'ownerTitle' : Diamond ? 'diamondTitle' : Gold ? 'goldTitle' : 'cardTitle'}>{Title}</p>
         </Link>
     );
 }
