@@ -1,10 +1,6 @@
 
 /* Tags */
 
-@import './tags/Owner.css';
-@import './tags/Diamond.css';
-@import './tags/Gold.css';
-
 .card{
     border: white inset 2px;
     border-radius: 5px;
