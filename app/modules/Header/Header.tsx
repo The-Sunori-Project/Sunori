@@ -4,7 +4,7 @@ export default function Header(){
     return(
         <header>
             <Link href="/">
-            <Image alt="Sunori Icon" id="favicon" src="./favicon.ico" width="48px"/>
+            <Image alt="Sunori Icon" id="favicon" src="./favicon.ico" width={48}/>
             <h1 id="title">Sunori</h1>
             </Link>
             <nav>
