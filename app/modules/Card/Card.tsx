@@ -1,14 +1,14 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import React, { FC } from 'react'
-interface CardProps {
-    Title?: string;
-    Img?: string;
-    Target?: string;
-    Url?: string;
-    Owner?: boolean;
-    Diamond?: boolean;
-    Gold?: boolean;
+type CardProps = {
+    Title: string;
+    Img: string;
+    Target: string;
+    Url: string;
+    Owner: boolean;
+    Diamond: boolean;
+    Gold: boolean;
 }
 const Card: FC<CardProps> = ({ Img, Title, Url, Target, Owner, Diamond, Gold }) => {
     return(
